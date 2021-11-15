@@ -2,8 +2,22 @@ class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
   # Add your routes here
-  get "/" do
-    { message: "Good luck with your project!" }.to_json
-  end
+
+delete " " do
+  
+end
+
+patch "" do
+  
+end
+
+post "" do
+  
+end
+
+get "/localhost:9292/restaurants" do
+  
+
+end
 
 end
